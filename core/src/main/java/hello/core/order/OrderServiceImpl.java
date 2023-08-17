@@ -8,7 +8,8 @@ import hello.core.member.MemberRepository;
 import hello.core.member.MemoryMemberRepository;
 
 public class OrderServiceImpl implements OrderService{
-    // 인터페이스에만 의존하도록 변경
+
+    // 인터페이스에만 의존하도록 변경 --> dip지킴
     private final DiscountPolicy discountPolicy; 
     private final MemberRepository memberRepository;
     
