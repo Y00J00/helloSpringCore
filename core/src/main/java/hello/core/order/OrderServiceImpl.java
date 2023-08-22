@@ -31,6 +31,10 @@ public class OrderServiceImpl implements OrderService{
         this.memberRepository = memberRepository;
     }
 
+    //테스트용도
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
 
 
     
